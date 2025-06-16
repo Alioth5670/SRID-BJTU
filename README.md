@@ -1,14 +1,9 @@
-以下是优化后的 **Markdown 版本**，将所有图片统一居中显示，并调整为合适的大小（例如宽度为 `70%` 或固定像素），适用于 GitHub、Typora、VS Code 等支持标准 Markdown 的渲染器。
-
----
-
 # 🚄 SRID-BJRU: A Simulation Framework and Dataset for Railway Intrusion Detection
 
 ## Download
 [Google Drive](https://drive.google.com/drive/folders/1HyAO2aniWTGOlI99I55eidfwwHQhABTD?usp=sharing)  
 [Baidu Drive](https://pan.baidu.com/s/16I0QVheeJeZLkoA2t8RRHw) Password: 7ua3
 
----
 
 ## Dataset Description
 
@@ -26,7 +21,7 @@ We simulated various illumination settings, including daytime, dawn/dusk, and ni
     <img src="figures/time_of_day.png" alt="Figure 2: Visual changes under different time-of-day conditions" width="50%" />
 </p>
 
----
+
 
 ### Data Collection and Annotation
 
@@ -45,24 +40,8 @@ A total of **11,898 bounding boxes** were automatically generated, following the
 The following figure shows the distribution of all annotation boxes in the dataset:
 
 <p align="center">
-    <div style="display: inline-block; text-align: center; margin: 5px; vertical-align: top; width: 30%;">
-        <img src="figures/number_of_intrusions.png" alt="Number of Intrusions" style="width:100%;">
-        <br>
-        <span>(a) Number of Intrusions</span>
-    </div>
-    <div style="display: inline-block; text-align: center; margin: 5px; vertical-align: top; width: 30%;">
-        <img src="figures/size_distribution.png" alt="Size Distribution" style="width:100%;">
-        <br>
-        <span>(b) Size Distribution</span>
-    </div>
-    <div style="display: inline-block; text-align: center; margin: 5px; vertical-align: top; width: 30%;">
-        <img src="figures/center_coordinates.png" alt="SCenter Distribution" style="width:100%;">
-        <br>
-        <span>(c) Center Distribution</span>
-    </div>
+    <img src="figures/distribution.png" alt="Table: distribution of annotations" width="90%" />
 </p>
-
----
 
 ## Experiment Result
 
@@ -75,7 +54,7 @@ The following figure shows the distribution of all annotation boxes in the datas
     <img src="figures/sim_det.png" alt="Figure: Simulated detection results" width="70%" />
 </p>
 
----
+
 
 ### Object detection experimental results of training on only real dataset and using simulated data as data augmentation, validation on real dataset.
 
@@ -86,7 +65,7 @@ The following figure shows the distribution of all annotation boxes in the datas
     <img src="figures/real_det.png" alt="Figure: Real detection results with simulation augmentation" width="70%" />
 </p>
 
----
+
 
 ### Semantic segmentation experimental results of training and validation on simulated dataset.
 
@@ -97,7 +76,7 @@ The following figure shows the distribution of all annotation boxes in the datas
     <img src="figures/sim_seg.png" alt="Figure: Simulated segmentation results" width="70%" />
 </p>
 
----
+
 
 ### Semantic segmentation experimental results of training on only real dataset and using simulated data as data augmentation, validation on real dataset.
 
